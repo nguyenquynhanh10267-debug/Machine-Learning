@@ -1,0 +1,68 @@
+{
+  "behavior_feature_cols": [
+    "log_max_order_number",
+    "log_avg_basket_size",
+    "avg_reorder_rate",
+    "log_avg_days_between_orders",
+    "weekend_ratio",
+    "startweek_ratio",
+    "hb_night",
+    "hb_morning",
+    "hb_noon",
+    "hb_afternoon",
+    "hb_evening",
+    "hb_late_evening",
+    "department_diversity",
+    "produce_share",
+    "dairy_share",
+    "primary_beverages",
+    "primary_dairy eggs",
+    "primary_frozen",
+    "primary_other",
+    "primary_produce",
+    "primary_snacks"
+  ],
+  "hb_cols": [
+    "hb_night",
+    "hb_morning",
+    "hb_noon",
+    "hb_afternoon",
+    "hb_evening",
+    "hb_late_evening"
+  ],
+  "primary_dummy_cols": [
+    "primary_beverages",
+    "primary_dairy eggs",
+    "primary_frozen",
+    "primary_other",
+    "primary_produce",
+    "primary_snacks"
+  ],
+  "consumption_cols": [
+    "max_order_number",
+    "avg_basket_size",
+    "avg_reorder_rate",
+    "avg_days_between_orders"
+  ],
+  "timing_cols": [
+    "weekend_ratio",
+    "startweek_ratio",
+    "hb_night",
+    "hb_morning",
+    "hb_noon",
+    "hb_afternoon",
+    "hb_evening",
+    "hb_late_evening"
+  ],
+  "department_cols": [
+    "department_diversity",
+    "produce_share",
+    "dairy_share",
+    "primary_beverages",
+    "primary_dairy eggs",
+    "primary_frozen",
+    "primary_other",
+    "primary_produce",
+    "primary_snacks"
+  ]
+}
